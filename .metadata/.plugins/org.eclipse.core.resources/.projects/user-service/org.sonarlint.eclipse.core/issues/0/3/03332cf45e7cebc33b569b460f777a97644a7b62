@@ -1,0 +1,34 @@
+
+Ž
+java:S3305""SInject this field value directly into "authenticate", the only method that uses it.(ñÊ®¤ùÿÿÿÿ8ãéó·³1HÑRCRITICALZ
+CODE_SMELL
+…
+java:S3305"OInject this field value directly into "doFilter", the only method that uses it.(ÏùªØ8ãéó·³1HÓRCRITICALZ
+CODE_SMELL
+{
+java:S5738:"HRemove this call to a deprecated method, it has been marked for removal.(ÏðÅô8ô•Ù¸³1HÖRMAJORZ
+CODE_SMELL
+u
+java:S1874"BRemove this use of "EnableGlobalMethodSecurity"; it is deprecated.(ö­ê×8ãéó·³1HÔRMINORZ
+CODE_SMELL
+Š
+java:S3305"OInject this field value directly into "doFilter", the only method that uses it.(×Ò®«ýÿÿÿÿ8ãéó·³1HÒRCRITICALZ
+CODE_SMELL
+€
+java:S57389"HRemove this call to a deprecated method, it has been marked for removal.(Åúßµûÿÿÿÿ8ÓšÄ¸³1HÎRMAJORZ
+CODE_SMELL
+€
+java:S57387"HRemove this call to a deprecated method, it has been marked for removal.(ÛüïÓýÿÿÿÿ8ãéó·³1HÏRMAJORZ
+CODE_SMELL
+z
+java:S57386"HRemove this call to a deprecated method, it has been marked for removal.(ßÒ£E8ãéó·³1H×RMAJORZ
+CODE_SMELL
+€
+java:S5738>"HRemove this call to a deprecated method, it has been marked for removal.(Åúßµûÿÿÿÿ8Æ£õŽ¶1HïRMAJORZ
+CODE_SMELL
+{
+java:S5738?"HRemove this call to a deprecated method, it has been marked for removal.(èúÞ«8Æ£õŽ¶1HðRMAJORZ
+CODE_SMELL
+€
+java:S5738@"HRemove this call to a deprecated method, it has been marked for removal.(Åúßµûÿÿÿÿ8Æ£õŽ¶1HñRMAJORZ
+CODE_SMELL

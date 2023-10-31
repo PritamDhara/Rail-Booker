@@ -1,0 +1,26 @@
+server:
+  port: 9093
+  
+spring:
+  application:
+    name: ticket-service
+    
+    
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: casestudyticketdb
+      
+eureka:
+  instance:
+    hostname: localhost
+
+logging:
+  level:
+    org:
+      springframework:
+        data:
+          mongodb:
+            core:
+              MongoTemplate: DEBUG

@@ -1,0 +1,26 @@
+server:
+  port: 9091
+  
+spring:
+  application:
+    name: train-service
+    
+    
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: casestudytraindb
+      
+eureka:
+  instance:
+    hostname: localhost
+
+logging:
+  level:
+    org:
+      springframework:
+        data:
+          mongodb:
+            core:
+              MongoTemplate: DEBUG

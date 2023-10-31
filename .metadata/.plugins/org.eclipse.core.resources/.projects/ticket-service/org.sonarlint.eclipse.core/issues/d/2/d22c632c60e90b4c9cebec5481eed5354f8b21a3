@@ -1,0 +1,22 @@
+
+‘
+java:S22934"YReplace the type specification in this constructor call with the diamond operator ("<>").(¾¥üíüÿÿÿÿ8ÌàŠ´1H½RMINORZ
+CODE_SMELL
+‘
+java:S2293<"YReplace the type specification in this constructor call with the diamond operator ("<>").(¾¥üíüÿÿÿÿ8ÌàŠ´1H¿RMINORZ
+CODE_SMELL
+…
+java:S1192""JDefine a constant instead of duplicating this literal "Not Found" 4 times.(½­Ã¸üÿÿÿÿ8ÌàŠ´1HÁRCRITICALZ
+CODE_SMELL
+‘
+java:S2293$"YReplace the type specification in this constructor call with the diamond operator ("<>").(¾¥üíüÿÿÿÿ8ÌàŠ´1H¹RMINORZ
+CODE_SMELL
+Œ
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(—îòµ8ÍËè‰´1H´RMINORZ
+CODE_SMELL
+‘
+java:S2293,"YReplace the type specification in this constructor call with the diamond operator ("<>").(¾¥üíüÿÿÿÿ8ÌàŠ´1H»RMINORZ
+CODE_SMELL
+‰
+java:S1192"NDefine a constant instead of duplicating this literal "Already Exist" 3 times.(öçÄüÿÿÿÿ8»é”Š´1HÚRCRITICALZ
+CODE_SMELL

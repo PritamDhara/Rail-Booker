@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+    <typeInfo handle="=user-service/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.railway.service{UserService.java[UserService" modifiers="513" timestamp="1697003524459"/>
+    <typeInfo handle="=ticket-service/C:\/Users\/PRITDHAR\/.m2\/repository\/org\/springframework\/data\/spring-data-mongodb\/4.1.4\/spring-data-mongodb-4.1.4.jar=/maven.pomderived=/true=/=/maven.groupId=/org.springframework.data=/=/maven.artifactId=/spring-data-mongodb=/=/maven.version=/4.1.4=/=/maven.scope=/compile=/=/maven.pomderived=/true=/&lt;org.springframework.data.mongodb.repository(MongoRepository.class[MongoRepository" modifiers="1537" timestamp="1695618031786"/>
+    <typeInfo handle="=user-service/C:\/Users\/PRITDHAR\/.p2\/pool\/plugins\/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_20.0.1.v20230425-1611\/jre\/lib\/jrt-fs.jar`java.base=/javadoc_location=/https:\/\/docs.oracle.com\/en\/java\/javase\/20\/docs\/api\/=/=/maven.pomderived=/true=/&lt;java.lang(Exception.class[Exception" modifiers="33" timestamp="1682419434000"/>
+</typeInfoHistroy>

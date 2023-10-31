@@ -1,0 +1,11 @@
+
+—
+java:S14887"_Immediately return this expression instead of assigning it to the temporary variable "details".(Â±“…üÿÿÿÿ8³Þ¡ø´1HòRMINORZ
+CODE_SMELL
+‹
+java:S1128"SRemove this unused import 'com.payment.exception.PaymentIsNotSuccessfullException'.(ŽÏª¥ûÿÿÿÿ8³Þ¡ø´1HõRMINORZ
+CODE_SMELL
+n	java:S1255"<This block of commented-out lines of code should be removed.(¥’—¤8¿É¤ø´1H÷RMAJORZ
+CODE_SMELL
+s	java:S125 "<This block of commented-out lines of code should be removed.(¥ÍžÝûÿÿÿÿ8³Þ¡ø´1HøRMAJORZ
+CODE_SMELL

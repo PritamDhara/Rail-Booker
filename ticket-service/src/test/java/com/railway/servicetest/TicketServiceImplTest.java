@@ -1,0 +1,131 @@
+package com.railway.servicetest;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertTrue;
+import static org.mockito.ArgumentMatchers.any;
+import static org.mockito.ArgumentMatchers.anyInt;
+import static org.mockito.ArgumentMatchers.anyString;
+import static org.mockito.Mockito.when;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Map;
+import java.util.Optional;
+
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.extension.ExtendWith;
+import org.mockito.InjectMocks;
+import org.mockito.Mock;
+import org.mockito.junit.jupiter.MockitoExtension;
+
+import com.railway.client.TrainClient;
+import com.railway.dto.Train;
+import com.railway.entity.Ticket;
+import com.railway.exceptions.NoSeatAvailableException;
+import com.railway.exceptions.NoTicketsAvailableException;
+import com.railway.exceptions.TicketAlreadyExistException;
+import com.railway.exceptions.TicketNotFoundWithThePNRException;
+import com.railway.repository.TicketRepository;
+import com.railway.service.TicketServiceImpl;
+
+@ExtendWith(MockitoExtension.class)
+public class TicketServiceImplTest {
+
+    @Mock
+    private TicketRepository ticketRepository;
+
+    @Mock
+    private TrainClient trainClient;
+
+    @InjectMocks
+    private TicketServiceImpl ticketService;
+
+//    @Test
+//    public void testCreateTicket() throws TicketAlreadyExistException, NoSeatAvailableException {
+//        // Create a sample ticket
+//        Ticket ticket = new Ticket();
+//        ticket.setTicketId(1);
+//        ticket.setTrainNo("D109");
+//        ticket.setQuota("ThAC");
+//        ticket.setUserEmail("user@example.com");
+//        ticket.setNoOfSeats(1);
+//
+//        // Mock behavior of the repository and trainClient
+//        when(ticketRepository.existsById(1)).thenReturn(false);
+//        when(trainClient.viewSeatWisePriceByTrainNo("D109")).thenReturn(Map.of("ThAC", 3000.0));
+//        when(trainClient.searchTrainByTrainNo("D109")).thenReturn(Optional.of(new Train()));
+//        when(trainClient.decreseTrainSeats(1, "ThAC", "D109")).thenReturn(Optional.of(new Train()));
+//        when(ticketRepository.save(any())).thenReturn(ticket);
+//
+//        // Perform the test
+//        Optional<Ticket> result = ticketService.createTicket(ticket);
+//
+//        // Assertions
+//        assertTrue(result.isPresent());
+//        assertEquals(ticket, result.get());
+//    }
+
+//    @Test
+//    public void testDeleteTicket() throws TicketNotFoundWithThePNRException {
+//        // Mock behavior of the repository and trainClient
+//        when(ticketRepository.findByPnrNo("PNR123")).thenReturn(Optional.of(new Ticket()));
+//        when(trainClient.increseTrainSeats(anyInt(), anyString(), anyString())).thenReturn(Optional.of(new Train()));
+//
+//        // Perform the test
+//        String result = ticketService.deleteTicket("PNR123");
+//
+//        // Assertions
+//        assertEquals("Ticket Deleted Successfully", result);
+//    }
+
+    @Test
+    public void testViewTicketByPNR() throws TicketNotFoundWithThePNRException {
+        // Create a sample ticket
+        Ticket ticket = new Ticket();
+        ticket.setPnrNo("PNR123");
+
+        // Mock behavior of the repository
+        when(ticketRepository.findByPnrNo("PNR123")).thenReturn(Optional.of(ticket));
+
+        // Perform the test
+        Optional<Ticket> result = ticketService.viewTicketByPNR("PNR123");
+
+        // Assertions
+        assertTrue(result.isPresent());
+        assertEquals(ticket, result.get());
+    }
+
+    @Test
+    public void testViewTicketByUserEmail() throws NoTicketsAvailableException {
+        // Create a list of sample tickets
+        List<Ticket> ticketList = new ArrayList<>();
+        ticketList.add(new Ticket());
+        ticketList.add(new Ticket());
+
+        // Mock behavior of the repository
+        when(ticketRepository.findByUserEmail("user@example.com")).thenReturn(ticketList);
+
+        // Perform the test
+        List<Ticket> result = ticketService.viewTicketByUserEmail("user@example.com");
+
+        // Assertions
+        assertEquals(ticketList.size(), result.size());
+    }
+
+    @Test
+    public void testViewAllTicket() {
+        // Create a list of sample tickets
+        List<Ticket> ticketList = new ArrayList<>();
+        ticketList.add(new Ticket());
+        ticketList.add(new Ticket());
+
+        // Mock behavior of the repository
+        when(ticketRepository.findAll()).thenReturn(ticketList);
+
+        // Perform the test
+        List<Ticket> result = ticketService.viewAllTicket();
+
+        // Assertions
+        assertEquals(ticketList.size(), result.size());
+    }
+}

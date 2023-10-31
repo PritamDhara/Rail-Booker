@@ -1,0 +1,31 @@
+
+‘
+java:S2293/"YReplace the type specification in this constructor call with the diamond operator ("<>").(Æ•ùÌıÿÿÿÿ8ƒ€—«±1H¹RMINORZ
+CODE_SMELL
+u
+java:S3655/"DCall "us.isPresent()" or "!us.isEmpty()" before accessing the value.(Æ•ùÌıÿÿÿÿ8ƒ€—«±1H¸RMAJORZBUG
+u
+java:S3655M"DCall "us.isPresent()" or "!us.isEmpty()" before accessing the value.(Æ•ùÌıÿÿÿÿ8Ë°æª±1H®RMAJORZBUG
+‘
+java:S2293&"YReplace the type specification in this constructor call with the diamond operator ("<>").(Æ•ùÌıÿÿÿÿ8¦‘îª±1H¶RMINORZ
+CODE_SMELL
+y
+java:S4684#"@Replace this persistent entity with a simple POJO or DTO object.(áüÿ˜8–ò„Â±1H³RCRITICALZVULNERABILITY
+y
+java:S4684,"@Replace this persistent entity with a simple POJO or DTO object.(Ş±ÇŠ8–ò„Â±1HµRCRITICALZVULNERABILITY
+‘
+java:S2293?"YReplace the type specification in this constructor call with the diamond operator ("<>").(›‘²øÿÿÿÿ8€˜‡«±1H±RMINORZ
+CODE_SMELL
+u
+java:S3655&"DCall "us.isPresent()" or "!us.isEmpty()" before accessing the value.(Æ•ùÌıÿÿÿÿ8ö£”«±1H´RMAJORZBUG
+‘
+java:S2293F"YReplace the type specification in this constructor call with the diamond operator ("<>").(Æ•ùÌıÿÿÿÿ8ö£”«±1H»RMINORZ
+CODE_SMELL
+Œ
+java:S22938"YReplace the type specification in this constructor call with the diamond operator ("<>").(¯˜×Ø8£¶üª±1H¯RMINORZ
+CODE_SMELL
+‘
+java:S2293M"YReplace the type specification in this constructor call with the diamond operator ("<>").(Æ•ùÌıÿÿÿÿ8Ë°æª±1H¾RMINORZ
+CODE_SMELL
+u
+java:S3655F"DCall "us.isPresent()" or "!us.isEmpty()" before accessing the value.(Æ•ùÌıÿÿÿÿ8¦‘îª±1H½RMAJORZBUG

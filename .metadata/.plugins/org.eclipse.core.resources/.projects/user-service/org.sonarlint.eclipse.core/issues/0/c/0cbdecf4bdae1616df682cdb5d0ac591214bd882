@@ -1,0 +1,17 @@
+
+s	java:S125D"<This block of commented-out lines of code should be removed.(ñ¥ùšøÿÿÿÿ8’—‰¸³1H²RMAJORZ
+CODE_SMELL
+–
+java:S1488{"^Immediately return this expression instead of assigning it to the temporary variable "claims".(Â©èæûÿÿÿÿ8’—‰¸³1HªRMINORZ
+CODE_SMELL
+s	java:S125c"<This block of commented-out lines of code should be removed.(˜„Öıÿÿÿÿ8’—‰¸³1H¸RMAJORZ
+CODE_SMELL
+s	java:S125l"<This block of commented-out lines of code should be removed.(ÿôÒ‹øÿÿÿÿ8’—‰¸³1H»RMAJORZ
+CODE_SMELL
+ƒ	java:S117<"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ô—í˜8’—‰¸³1H©RMINORZ
+CODE_SMELL
+s	java:S125'"<This block of commented-out lines of code should be removed.(ÅŸ•¼øÿÿÿÿ8’—‰¸³1H­RMAJORZ
+CODE_SMELL
+…
+java:S6204:"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(ª™¨¹8‚“Ã¸³1H÷RMAJORZ
+CODE_SMELL

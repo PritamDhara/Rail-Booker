@@ -1,0 +1,9 @@
+
+x	java:S107:"AConstructor has 8 parameters, which is greater than 7 authorized.(Úø¸žýÿÿÿÿ8„ø·æ³1H±RMAJORZ
+CODE_SMELL
+f
+java:S1128	"3Remove this unused import 'com.railway.dto.Ticket'.(ÞòÌ¦8éË¡º³1H¯RMINORZ
+CODE_SMELL
+c
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8éË¡º³1H²RMINORZ
+CODE_SMELL

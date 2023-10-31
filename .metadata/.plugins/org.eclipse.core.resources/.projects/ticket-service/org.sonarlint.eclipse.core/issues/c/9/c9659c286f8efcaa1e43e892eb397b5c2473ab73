@@ -1,0 +1,25 @@
+
+‘
+java:S22934"YReplace the type specification in this constructor call with the diamond operator ("<>").(è’Íœùÿÿÿÿ8ÛŒ÷í²1HáRMINORZ
+CODE_SMELL
+‘
+java:S2293,"YReplace the type specification in this constructor call with the diamond operator ("<>").(çßª‰ûÿÿÿÿ8ÿ´ûí²1HãRMINORZ
+CODE_SMELL
+
+java:S3655%"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(€ÂŠ³ûÿÿÿÿ8äÌ÷í²1HåRMAJORZBUG
+Œ
+java:S2293;"YReplace the type specification in this constructor call with the diamond operator ("<>").(¤8—ş‡î²1HæRMINORZ
+CODE_SMELL
+‘
+java:S2293A"YReplace the type specification in this constructor call with the diamond operator ("<>").(éã”Øøÿÿÿÿ8ø¼Õóµ1HèRMINORZ
+CODE_SMELL
+g
+java:S1128"/Remove this unused import 'java.util.Optional'.(¨˜ëİüÿÿÿÿ8äÌ÷í²1HêRMINORZ
+CODE_SMELL
+|
+java:S36552"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(â÷à8®ƒî²1HìRMAJORZBUG
+‘
+java:S2293%"YReplace the type specification in this constructor call with the diamond operator ("<>").(€ÂŠ³ûÿÿÿÿ8®ƒî²1HíRMINORZ
+CODE_SMELL
+y
+java:S4684#"@Replace this persistent entity with a simple POJO or DTO object.(ÑÎŸç8½²ˆ´1HïRCRITICALZVULNERABILITY
